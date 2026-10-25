@@ -1,0 +1,6 @@
+{
+  "name": "Supermercado Ali Raio do Sol",
+  "description": "Site profissional do Supermercado Ali Raio do Sol com catálogo completo de açougue, mercearia e atualização de preços em tempo real.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
