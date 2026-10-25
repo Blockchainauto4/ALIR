@@ -1,17 +1,76 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Supermercado Ali Raio do Sol</title>
-    <meta name="description" content="Site profissional do Supermercado Ali Raio do Sol com catálogo completo de açougue, mercearia e atualização de preços em tempo real." />
-    <meta property="og:title" content="Supermercado Ali Raio do Sol" />
-    <meta property="og:description" content="Site profissional do Supermercado Ali Raio do Sol com catálogo completo de açougue, mercearia e atualização de preços em tempo real." />
+    <title>Supermercado Ali Raio do Sol – Açougue, Ofertas e Preços em Tempo Real</title>
+    <meta
+      name="description"
+      content="Confira as ofertas do dia no Supermercado Ali Raio do Sol. Carnes frescas cortadas na hora, mercearia completa e atualização de preços em tempo real com pedidos via WhatsApp."
+    />
+    <meta name="keywords" content="supermercado, açougue, carnes frescas, ofertas do dia, picanha, alcatra, frango, feira, delivery, Ali Raio do Sol" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#182b68" />
+
+    <!-- Favicon & Mobile Touch Icons -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="alternate icon" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+
+    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:site_name" content="Supermercado Ali Raio do Sol" />
+    <meta property="og:title" content="Supermercado Ali Raio do Sol – Açougue e Ofertas ao Vivo" />
+    <meta
+      property="og:description"
+      content="Consulte preços em tempo real, veja os cartazes amarelos de ofertas de carnes do açougue e faça seus pedidos diretamente pelo WhatsApp."
+    />
+    <meta property="og:image" content="/assets/aistudio/IMG_20261025_070850_7ba96680.jpg" />
+    <meta property="og:image:alt" content="Fachada e balcão de ofertas do Supermercado Ali Raio do Sol" />
+
+    <!-- Twitter / X Cards -->
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Supermercado Ali Raio do Sol – Açougue e Ofertas ao Vivo" />
+    <meta
+      name="twitter:description"
+      content="Consulte preços em tempo real, veja os cartazes amarelos de ofertas de carnes do açougue e faça seus pedidos diretamente pelo WhatsApp."
+    />
+    <meta name="twitter:image" content="/assets/aistudio/IMG_20261025_070850_7ba96680.jpg" />
+
+    <!-- Google Fonts for authentic Brazilian supermarket sign lettering -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800;900&family=Oswald:wght@600;700&display=swap" rel="stylesheet">
+
+    <!-- Schema.org JSON-LD Structured Data for Local Grocery Store -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "GroceryStore",
+      "name": "Supermercado Ali Raio do Sol",
+      "image": "/assets/aistudio/IMG_20261025_070850_7ba96680.jpg",
+      "telephone": "+55-11-97242-8422",
+      "priceRange": "$$",
+      "currenciesAccepted": "BRL",
+      "paymentAccepted": "Cash, Credit Card, Debit Card, Pix, Alelo, Sodexo, Ticket Alimentação",
+      "description": "Supermercado e açougue tradicional de bairro com carnes frescas do dia, mercearia completa, cartazes de ofertas diárias e preços atualizados em tempo real.",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          "opens": "07:00",
+          "closes": "20:30"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Sunday"],
+          "opens": "07:00",
+          "closes": "14:00"
+        }
+      ]
+    }
+    </script>
   </head>
   <body>
     <div id="root"></div>

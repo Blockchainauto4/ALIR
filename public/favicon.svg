@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Navy Blue Background with Rounded Corners -->
+  <rect width="64" height="64" rx="14" fill="#182b68" />
+  
+  <!-- Outer Gold/Red Border Accent -->
+  <rect x="2" y="2" width="60" height="60" rx="12" fill="none" stroke="#f59e0b" stroke-width="2" />
+  
+  <!-- Subtle Solar Glow Behind Lightning -->
+  <circle cx="32" cy="32" r="18" fill="#fef08a" opacity="0.25" />
+  
+  <!-- Iconic Red Lightning Bolt (Raio do Sol) -->
+  <path d="M35 6 L19 33 L31 33 L27 58 L45 28 L32 28 Z" fill="#dc2626" stroke="#ffffff" stroke-width="2" stroke-linejoin="round" />
+  
+  <!-- Inner Sparkle -->
+  <polygon points="34,14 36,18 40,19 36,21 34,25 32,21 28,19 32,18" fill="#facc15" />
+</svg>
